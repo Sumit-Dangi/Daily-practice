@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.nav{
+    background-color: #f2f2f2;
+    height:70px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    position:fixed
+}
+.navimg{
+    height: 32px;
+    width: 32px;
+    margin-top: 20px;
+}
+
+.nav-res-logo{
+    margin-right: 40%;
+}
+.backg{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../pr1img.jpeg);
+    background-size: cover;
+    color:white;
+
+}
+
+#h1{
+    font-size: 80px;
+    padding-top: 80px;
+    padding-left: 200px;
+    font-weight: 700;
+}
+#h2{
+   font-size: 150px; 
+   font-weight: 700;
+   margin-top: 342px;
+   margin-left: 200px;
+}
+.np{
+    background-color:#7da2a9;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.npf{
+    font-size: 2vw;
+    text-align: right;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5%;
+    width: 70%;
+}
+#para{
+    font-size:20px ;
+    color: white;
+}
+h3{
+    color:white;
+}
+.fclass{
+    text-align: center;
+    margin-top: 100px;
+}
+.sclass{
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 100px;
+    gap: 5%;
+    padding: 0px 50px;
+
+}
+.h3{
+    color: black;
+}
+.para2{
+    font-size: 20px;
+    margin-bottom: 50px;
+    
+}
+.c{
+    height: 40vh;
+}
+
+.c svg{
+    height: 10%;
+    margin-bottom: 5%;
+}
