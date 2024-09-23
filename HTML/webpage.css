@@ -45,7 +45,7 @@
 .main-content{
     width: 100vw;
     height: 80vh;
-    background-image: url(bgimg.webp);
+    background-image: url(./block.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
